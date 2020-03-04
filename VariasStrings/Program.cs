@@ -6,6 +6,8 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx = 0.12345;
+            int ii = 18;
             int a = 4;
             string s = "Hello world";
             string v2 = "Nova linha \n Unicode e \u1234";
@@ -31,7 +33,10 @@ namespace VariasStrings
             Console.WriteLine(x4);
             Console.WriteLine(x5);
             Console.WriteLine(x6);
-
+            Console.WriteLine("{0:f2}", xx);
+            Console.WriteLine("{0:p1}", xx);
+            Console.WriteLine("{0:x}", ii);
+            Console.WriteLine("{0:C}", ii);
         }
     }
 }
